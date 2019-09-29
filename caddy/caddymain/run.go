@@ -601,4 +601,4 @@ var (
 )
 
 // EnableTelemetry defines whether telemetry is enabled in Run.
-var EnableTelemetry = true
+var EnableTelemetry = false
