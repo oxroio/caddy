@@ -13,7 +13,7 @@
 // limitations under the License.
 
 package caddymain
-
+import _ "github.com/caddyserver/dnsproviders/cloudflare"
 import (
 	"bufio"
 	"errors"
@@ -42,7 +42,6 @@ import (
 	// This is where other plugins get plugged in (imported)
         _ "github.com/BTBurke/caddy-jwt"
 	_ "github.com/tarent/loginsrv/caddy"
-	_ "github.com/oxroio/dnsproviders/cloudflare"
 )
 
 func init() {
