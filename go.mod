@@ -23,3 +23,5 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.2.2
 )
+
+replace github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
