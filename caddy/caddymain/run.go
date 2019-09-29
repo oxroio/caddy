@@ -40,6 +40,8 @@ import (
 
 	_ "github.com/caddyserver/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
+        _ "github.com/BTBurke/caddy-jwt"
+	_ "github.com/tarent/loginsrv/caddy"
 )
 
 func init() {
