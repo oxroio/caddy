@@ -42,6 +42,8 @@ import (
 	// This is where other plugins get plugged in (imported)
         _ "github.com/BTBurke/caddy-jwt"
 	_ "github.com/tarent/loginsrv/caddy"
+	_ "github.com/pteich/caddy-tlsconsul"
+	_ "github.com/gamalan/caddy-tlsredis"
 )
 
 func init() {
