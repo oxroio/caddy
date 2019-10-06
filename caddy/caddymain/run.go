@@ -44,7 +44,8 @@ import (
 	_ "github.com/tarent/loginsrv/caddy"
 	_ "github.com/pteich/caddy-tlsconsul"
 	_ "github.com/gamalan/caddy-tlsredis"
-	_ "github.com/pyed/ipfilter"
+	_ "github.com/pyed/ipfilter",
+	_ "github.com/captncraig/cors"
 )
 
 func init() {
