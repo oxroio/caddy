@@ -37,15 +37,10 @@ import (
 	"github.com/klauspost/cpuid"
 	"github.com/mholt/certmagic"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
-
 	_ "github.com/caddyserver/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
-        _ "github.com/BTBurke/caddy-jwt"
-	_ "github.com/tarent/loginsrv/caddy"
 	_ "github.com/pteich/caddy-tlsconsul"
 	_ "github.com/gamalan/caddy-tlsredis"
-	_ "github.com/pyed/ipfilter"
-	_ "github.com/captncraig/cors/caddy"
 )
 
 func init() {
